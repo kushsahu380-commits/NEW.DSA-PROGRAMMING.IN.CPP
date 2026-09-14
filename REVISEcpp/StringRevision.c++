@@ -72,8 +72,9 @@ int main()
     // 2. Find the length of a string without using .length().
     // string s;
     // int i = 0;
+    // cout << "ENTER THE STRING  : ";
     // getline(cin, s);
-    // while ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
+    // while ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z') || (s[i] >= '0' && s[i] <= '9') || (s[i] == ' '))
     // {
     //     i++;
     // }
@@ -357,6 +358,6 @@ int main()
     //         cout << "THE FIRST NON-REPEATING CHARACTER IS : " << s[i];
     //         return 0;
     //     }
-    // }  
+    // }
     return 0;
 }
