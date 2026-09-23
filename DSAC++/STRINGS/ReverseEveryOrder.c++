@@ -20,10 +20,10 @@ int main()
         i++;
         j--;
     }
-    for (int i = 0; i < s.length(); i++)
+    for (int i = 0; i <= s.length(); i++)
     {
         k = i - 1;
-        if (s[i] == ' ' || s[i] == s.length())
+        if (s[i] == ' ' || i == s.length())
         {
             while (start < k)
             {
